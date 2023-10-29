@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:alpine
 WORKDIR /app
 # add package.json to current directory.
 ADD package*.json ./
